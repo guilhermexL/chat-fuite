@@ -1,6 +1,6 @@
 # Chat Noir
 
-Bem-vindo ao repositório oficial do **Chat Noir**, um jogo digital inspirado no clássico de estratégia onde o objetivo é capturar o gato preto antes que ele escape do tabuleiro!
+Projeto ligado à atividade da disciplina de Programação em Dispositivos Móveis, **Chat Noir**, um jogo digital inspirado no clássico de estratégia onde o objetivo é capturar o gato preto antes que ele escape do tabuleiro!
 
 ## Sobre o Jogo
 
