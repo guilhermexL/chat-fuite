@@ -1,23 +1,66 @@
-# Chat Noir
+# Chat Fuite - Java Swing Edition
 
-Projeto ligado à atividade da disciplina de Programação em Dispositivos Móveis, **Chat Noir**, um jogo digital inspirado no clássico de estratégia onde o objetivo é capturar o gato preto antes que ele escape do tabuleiro!
+Um pequeno jogo feito em Java utilizando Swing, onde o objetivo é **impedir que o gato fuja do tabuleiro**. Você clica nos círculos para criar obstáculos e tentar cercar o gato antes que ele alcance a borda!
 
-## Sobre o Jogo
+---
 
-**Chat Noir** é um jogo de tabuleiro em que o jogador deve usar raciocínio lógico para evitar que o gato fuja pelos cantos. A cada rodada, o jogador bloqueia uma célula e o gato tenta escapar pelo caminho mais curto disponível. O desafio está em prever os movimentos do gato e cercá-lo antes que seja tarde demais!
+### Como funciona?
 
+* O tabuleiro é formado por círculos (células).
+* Um gato começa no centro.
+* A cada rodada, o jogador clica em uma célula para bloqueá-la.
+* O gato se move automaticamente tentando encontrar a saída mais próxima.
+* O jogo termina quando:
+
+  * ✅ O jogador cerca o gato (vitória).
+  * ❌ O gato escapa pelo canto do tabuleiro (derrota).
+
+---
+
+### Tecnologias utilizadas
+
+* **Java 17+** (ou compatível)
+* **Swing** (interface gráfica)
+* Algoritmos de pathfinding (ex: BFS para movimentação do gato)
+
+---
+
+### Como rodar o projeto
+
+1. **Clone este repositório:**
+
+   ```bash
+   git clone https://github.com/guilhermexL/chat-fuite.git
+   cd chat-fuite
+   ```
+
+2. **Compile o projeto:**
+
+   * Usando terminal:
+
+     ```bash
+     javac src/**/*.java
+     ```
+
+3. **Execute o jogo:**
+
+   ```bash
+   java -cp src Main
+   ```
 > [!NOTE]
-> Este repositório está em fase inicial de planejamento. As tecnologias e ferramentas que serão utilizadas no desenvolvimento ainda estão sendo definidas.
+> Certifique-se de que o `Main.java` está configurado corretamente como classe principal.
 
-## 🚧 Status do Projeto
+---
 
-🟡 **Em planejamento**  
-- Definição de tecnologias (linguagens, frameworks, bibliotecas)
-- Estruturação do projeto
-- Criação da primeira versão jogável
+### Próximos passos
 
-## Objetivos
+* [ ] Criar interface gráfica com círculos clicáveis.
+* [ ] Implementar movimentação automática do gato.
+* [ ] Adicionar condição de vitória/derrota.
+* [ ] Melhorar design com cores e efeitos visuais.
 
-- Criar uma versão digital divertida e interativa do jogo Chat Noir
-- Desenvolver um código limpo, modular e de fácil manutenção
-- Possivelmente aplicar inteligência artificial para controlar o comportamento do gato
+---
+
+### Autor
+
+Desenvolvido por [Guilherme Santos](https://linkedin.com/in/guilhermee-santos).
