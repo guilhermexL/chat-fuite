@@ -17,7 +17,7 @@ Chat Noir é um jogo de estratégia baseado no clássico "Circle the Cat". O obj
 
 ## Demonstração
 
-[🎮 Jogar Online](XXX)
+[🎮 Jogar Online](https://chat-noir.vercel.app/)
 
 ## Tecnologias Utilizadas
 
