@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { RotateCcw, Trophy, Target, Info, Share2 } from 'lucide-react'
+import { RotateCcw, Trophy, Target, Info, Github, Share2 } from 'lucide-react'
 
 // Tipos do jogo
 type Position = { row: number; col: number }
@@ -395,7 +395,7 @@ export default function ChatNoirGame() {
 
         {/* Footer */}
         <div className="text-center text-xs text-gray-400">
-          <p>Feito com React & Next.js</p>
+          <p>© 2025 - Guilherme. Todos os direitos reservados.</p>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ Chat Noir é um jogo de estratégia baseado no clássico "Circle the Cat". O obj
 
 ## Demonstração
 
-[🎮 Jogar Online](https://chat-fuite.vercel.app)
+[🎮 Jogar Online](XXX)
 
 ## Tecnologias Utilizadas
 
@@ -57,7 +57,7 @@ Chat Noir é um jogo de estratégia baseado no clássico "Circle the Cat". O obj
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/guilhermexL/chat-noir-game.git
+git clone https://github.com/guilhermexL/xxxxx.git
 cd chat-noir-game
 ```
 
