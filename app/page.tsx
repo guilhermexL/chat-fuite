@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { RotateCcw, Trophy, Target, Info, Github, Share2 } from 'lucide-react'
+import { RotateCcw, Trophy, Target, Info} from 'lucide-react'
 
 // Tipos do jogo
 type Position = { row: number; col: number }
@@ -201,7 +201,7 @@ export default function ChatNoirGame() {
     }, 100)
   }
 
-  // Compartilhar resultado
+  /* Compartilhar resultado
   const shareResult = () => {
     if (navigator.share) {
       navigator.share({
@@ -216,6 +216,7 @@ export default function ChatNoirGame() {
       alert('Link copiado para a área de transferência!')
     }
   }
+  */
 
   // Inicializar jogo
   useEffect(() => {
@@ -311,12 +312,16 @@ export default function ChatNoirGame() {
               <RotateCcw className="w-4 h-4 mr-1" />
               <span className="hidden sm:inline">Nova Partida</span>
             </Button>
+
+            {/*
             {gameState !== "playing" && (
               <Button onClick={shareResult} variant="outline" size="sm">
                 <Share2 className="w-4 h-4 mr-1" />
                 <span className="hidden sm:inline">Compartilhar</span>
-              </Button>
+              </Button>            
             )}
+            */}
+
           </div>
         </div>
 
